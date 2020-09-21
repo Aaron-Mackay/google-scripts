@@ -1,6 +1,6 @@
-
+// Caps spend of a specific keyword at a specific amount, pausing it when it reaches that point. Re-enables keyword once the new day starts. Must be ran hourly, and implemented at account level
 function main() {
-    // Caps spend of a specific keyword at a specific amount, pausing it when it reaches that point. Re-enables keyword once the new day starts. Must be ran hourly, and implemented at account level
+    
 
     var spendCap = 1000; // Enter spend cap for the day in the account currency
     var recipient = "email@email.com"; // Enter recipient to be notified on pausing
