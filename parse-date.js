@@ -1,3 +1,5 @@
+// Parses a date in the javascript format to a string form of dd/mm/yyyy
+
 function parseDate(date, modifier){
   if (modifier) {
     date.setDate(date.getDate() + modifier);
